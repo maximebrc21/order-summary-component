@@ -1,0 +1,94 @@
+body {
+  background-image: url(./pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  font-family: 'Red Hat Display';
+  background-color: #e0e8ff;
+}
+
+
+section {
+    display: grid;
+    place-items: center;
+    margin-top: 150px;
+  }
+  
+.header-image {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.container { 
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px rgba(64, 64, 64, 0.08);
+    width: 450px;
+    height: 600px;
+    background-color: white;
+
+  }
+
+.plan_choice {
+  border-radius: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fe;
+  height: 70px;
+  width: 350px;
+  font-size: 0.9em;
+
+}
+
+.Annual-plan {
+  font-weight: bold;
+}
+
+p {
+  margin: 15px;
+}
+
+.content-text {
+  color: #9195a8;
+}
+
+button {
+  background-color: #1d20cd;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 25px;
+  box-shadow: 2px 2px 2px 2px rgba(64, 64, 64, 0.08);
+  font-family: 'Red Hat Display'; 
+  font-weight: bold;
+  width: 350px;
+
+}
+
+button:hover {
+  background-color: #746bf1;
+}
+
+#Change-Button {
+  color: #716bc9;
+}
+
+#Cancel-Button {
+  color: gray;
+  padding: 35px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#Cancel-Button:hover {
+  color: black;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url(./RedHatDisplay-VariableFont_wght.ttf);
+}

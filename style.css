@@ -1,7 +1,7 @@
 ebody {
   background-image: url(./pattern-background-desktop.svg);
   background-repeat: no-repeat;
-  background-size: cover no-repeat;
+  background-size: cover;
   font-family: 'Red Hat Display';
   background-color: #e0e8ff;
 }
